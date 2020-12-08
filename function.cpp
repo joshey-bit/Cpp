@@ -14,7 +14,7 @@ void hello(string name, int age)
 }
 
 //we can declare function head at first like variable and function after call 
-void nigga(string name, int age);
+void contacts(string name, int age);
 
 int main()
 {
@@ -24,15 +24,14 @@ int main()
 	//call function for different names and ages
 	hello("rahul",23);
 	hello("rohit",21);
-	hello("rakshita",17);
 	cout << endl;
 
-	//call nigga function
-	nigga("bull dog",22);
+	//call contacts function
+	contacts("bull dog",22);
 	cout << endl;
 
 
-	//create an user input for nigga function
+	//create an user input for contacts function
 	string name;
 	int age;
 	cout << "enter ur name: ";
@@ -41,14 +40,14 @@ int main()
 	cout << "enter ur age: ";
 	cin >> age;
 
-	//call nigga function place variables as arguements
-	nigga(name, age);
+	//call contacts function place variables as arguements
+	contacts(name, age);
 	return 0;
 }
 
 
-//declare the nigga function
-void nigga(string name, int age)
+//declare the contacts function
+void contacts(string name, int age)
 {
 	cout << "hello " << name << ", you are " << age << endl;
 }
