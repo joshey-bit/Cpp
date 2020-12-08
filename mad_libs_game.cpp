@@ -21,7 +21,7 @@ int main()
 
 	cout << "\tRoses are " << color << endl;
 	cout << "\t" << pluralNoun << " is Blue, " << endl;
-	cout << "\t" << "Fuck my life, Fuck you " << name << endl;
+	cout << "\t" << "Moon is Beautiful, just like you" << name << endl;
 
 	//note: sometimes cin.ignore() is not required
 	return 0;
