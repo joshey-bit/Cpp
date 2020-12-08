@@ -49,7 +49,7 @@ int main()
 
 
 	//cout << person1.gender << endl; gender is private attribute cannot be accesed out of the class
-	person1.set_gender("jankiiii");
+	person1.set_gender("male");
 
 	//get the gender
 	person1.get_gender();
